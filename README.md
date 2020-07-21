@@ -27,6 +27,8 @@ A helper script has been made to assist the use of continuously typing out Terra
 ./tf.sh apply
 ```
 
+After applying, Terraform will output the DNS name of the ALB, and you can use this to view the application in your browser.
+
 #### `destroy`
 
 ```bash
@@ -41,7 +43,7 @@ A helper script has been made to assist the use of continuously typing out Terra
 
 ## Problems & Help
 
-- Terraform currently is unable to delete a VPC as it can't delete all its dependencies.
+- It's possible that Terraform won't delete the VPC as the VPC has a lot of dependencies.
 
 ## Further Thoughts
 
