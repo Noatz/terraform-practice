@@ -1,6 +1,6 @@
 # AWS DevOps Test
 
-This repository will use Terraform to deploy a simple todo React application that has been made by myself and can be found here: https://github.com/Noatz/todo.
+This repository uses Terraform (v0.12.28) to deploy a simple todo React application that has been made by myself and can be found here: https://github.com/Noatz/todo.
 
 ## How To
 
